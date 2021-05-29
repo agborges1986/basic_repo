@@ -1,0 +1,80 @@
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/repo (master)
+$ cd ..
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)
+$ mkdir basic_repo
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)
+$ cd basic_repo
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo
+$ git init
+Initialized empty Git repository in D:/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo/.git/
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ touch index.html
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ touch terminal.txt
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git add .
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git commit -m 'basic repo commit'
+[master (root-commit) 903c327] basic repo commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 terminal.txt
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ push https://github.com/agborges1986/basic_repo.git
+bash: push: command not found
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git push https://github.com/agborges1986/basic_repo.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/agborges1986/basic_repo.git master
+
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git push --set-upstream https://github.com/agborges1986/basic_repo.git master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 228 bytes | 76.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/agborges1986/basic_repo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/agborges1986/basic_repo.git'.
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git add .
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git commit -m 'add new .txt'
+[master d9294c5] add new .txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos_basic_repo.txt
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git push --set-upstream https://github.com/agborges1986/basic_repo.git master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 270 bytes | 135.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/agborges1986/basic_repo.git
+   903c327..d9294c5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/agborges1986/basic_repo.git'.
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$ git push https://github.com/agborges1986/basic_repo.git
+Everything up-to-date
+
+Jefe Operaciones@JEFE-OP MINGW64 /d/14_Cursos Online/06_Talento Digital (Coding Dojo)/basic_repo (master)
+$
